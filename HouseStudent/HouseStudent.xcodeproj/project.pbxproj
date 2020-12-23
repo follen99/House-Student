@@ -14,6 +14,8 @@
 		B38D0B81259352B300987BF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38D0B80259352B300987BF7 /* Assets.xcassets */; };
 		B38D0B84259352B300987BF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38D0B83259352B300987BF7 /* Preview Assets.xcassets */; };
 		B38D0B87259352B300987BF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38D0B85259352B300987BF7 /* LaunchScreen.storyboard */; };
+		FD608AE7259356610066ACAB /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD608AE6259356610066ACAB /* TaskView.swift */; };
+		FD608AEA2593568A0066ACAB /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD608AE92593568A0066ACAB /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B38D0B83259352B300987BF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B38D0B86259352B300987BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38D0B88259352B300987BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD608AE6259356610066ACAB /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		FD608AE92593568A0066ACAB /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				B38D0B77259352B200987BF7 /* AppDelegate.swift */,
 				B38D0B79259352B200987BF7 /* SceneDelegate.swift */,
 				B38D0B7B259352B200987BF7 /* ContentView.swift */,
+				FD608AE92593568A0066ACAB /* AddTaskView.swift */,
+				FD608AE6259356610066ACAB /* TaskView.swift */,
 				B38D0B80259352B300987BF7 /* Assets.xcassets */,
 				B38D0B85259352B300987BF7 /* LaunchScreen.storyboard */,
 				B38D0B88259352B300987BF7 /* Info.plist */,
@@ -151,6 +157,8 @@
 				B38D0B7F259352B200987BF7 /* HouseStudent.xcdatamodeld in Sources */,
 				B38D0B78259352B200987BF7 /* AppDelegate.swift in Sources */,
 				B38D0B7A259352B200987BF7 /* SceneDelegate.swift in Sources */,
+				FD608AEA2593568A0066ACAB /* AddTaskView.swift in Sources */,
+				FD608AE7259356610066ACAB /* TaskView.swift in Sources */,
 				B38D0B7C259352B200987BF7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,8 +300,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HouseStudent/Preview Content\"";
+				DEVELOPMENT_TEAM = DURU2VZH23;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HouseStudent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,8 +322,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HouseStudent/Preview Content\"";
+				DEVELOPMENT_TEAM = DURU2VZH23;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HouseStudent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
